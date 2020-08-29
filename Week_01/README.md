@@ -15,19 +15,6 @@
     * 最差：O(n);
     * 最好：O(1);
     
-    ```java
-        private static class Node<E> {
-            E item;
-            Node<E> next;
-            Node<E> prev;
-    
-            Node(Node<E> prev, E element, Node<E> next) {
-                this.item = element;
-                this.next = next;
-                this.prev = prev;
-            }
-        }
-    ```
 ```java
     class ArrayList{
     public void add(int index, E element) {
