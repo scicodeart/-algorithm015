@@ -177,7 +177,7 @@ public class DesignCircularDeque {
              * Checks whether the circular deque is full or not.
              */
             public boolean isFull() {
-                return this.count == 0;
+                return this.count == this.capacity;
             }
         }
 

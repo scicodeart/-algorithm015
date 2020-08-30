@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="feb7ca74-4dde-4c86-95e7-279df566a869" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/DesignCircularDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/DesignCircularDeque.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week_01/DesignCircularDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="222">
+              <caret line="179" column="51" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="51" />
               <folding>
                 <element signature="e#4612#4613#0" expanded="true" />
                 <element signature="e#4678#4679#0" expanded="true" />
@@ -147,7 +148,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1719" />
     <option name="y" value="-257" />
     <option name="width" value="1164" />
@@ -228,15 +229,16 @@
       <workItem from="1598368980791" duration="158000" />
       <workItem from="1598686360763" duration="5296000" />
       <workItem from="1598701702975" duration="770000" />
-      <workItem from="1598797665261" duration="2297000" />
+      <workItem from="1598797665261" duration="2526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8521000" />
+    <option name="totallyTimeSpent" value="8750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1719" y="-257" width="1164" height="904" extended-state="1" />
+    <frame x="1719" y="-257" width="1164" height="904" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20944741" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_01/DesignCircularDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="222">
+          <caret line="179" column="51" selection-start-line="179" selection-start-column="51" selection-end-line="179" selection-end-column="51" />
           <folding>
             <element signature="e#4612#4613#0" expanded="true" />
             <element signature="e#4678#4679#0" expanded="true" />
