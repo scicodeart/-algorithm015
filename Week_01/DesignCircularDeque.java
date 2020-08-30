@@ -48,18 +48,20 @@ public class DesignCircularDeque {
 // Please do not use the built-in Deque library.
 //
 // Related Topics Design Queue
-    class Node {
-        int val;
-        Node prev, next;
 
-        Node(int val) {
-            this.val = val;
-            this.prev = null;
-            this.next = null;
-        }
 
         //leetcode submit region begin(Prohibit modification and deletion)
         class MyCircularDeque {
+
+            class Node {
+                int val;
+                Node prev, next;
+
+                Node(int val) {
+                    this.val = val;
+                    this.prev = null;
+                    this.next = null;
+             }}
 
             int count;
             int capacity;
@@ -192,5 +194,5 @@ public class DesignCircularDeque {
  * boolean param_8 = obj.isFull();
  */
 //leetcode submit region end(Prohibit modification and deletion)
-    }
+
 }
