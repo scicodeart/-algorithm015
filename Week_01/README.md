@@ -113,3 +113,28 @@ $n/2$、$n/4$、$n/8$、第 k 级索引结点的个数就是 $n/(2^k)$
 * 跳表：Redis
   > [Redis跳表](https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html)
   > [Redis为什么使用跳表而不用红黑树](https://www.zhihu.com/question/20202931)
+  
+  ### 2.栈和队列、优先队列和双端队列
+  #### 2.1 栈(Last in - First out)
+  ##### Stack底层
+  底层是 父类vector数组（线程安全的数组）
+  #### 2.2 队列(First in - First out)
+  
+  ##### 时间复杂度
+  * 栈和队列的添加删除都是O(1)
+  * 查询O(n)
+  
+  #### 2.3 双端队列 Deque - double ended queue
+  * 1.概念：简单理解：两端可以进出的 Queue 
+  * 2.插入和删除都是 O(1) 操作
+  * 提供addLast() addFirst() removeLast() removeFirst()
+  
+  ![df41dcb598ac80f6f69170afaca548a6.png](evernotecid://0000E11B-C14D-42DF-A687-4CFAE05027ED/appyinxiangcom/25828983/ENResource/p79)
+  #### 2.4 优先队列 Priority Queue
+  ##### 特点
+  * 1.插入操作：O(1)
+  * 2.取出操作：O(logN) - 按照元素的优先级取出
+  * 3.底层具体实现的数据结构较为多样和复杂：heap、bst、treap
+  
+  ##### 底层数据结构
+  多样性：heap（各种堆都有可能）、bst（二叉树（红黑树、AVL等））、treap。
