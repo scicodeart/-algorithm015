@@ -56,6 +56,39 @@ public class GroupAnagrams {
             }
             return new ArrayList(ans.values());
         }
+
+        public List<List<String>> groupAnagramsByCount(String[] strs) {
+
+            if (strs.length == 0) return new ArrayList();
+            Map<String, List> ans = new HashMap<>();
+            for (int i = 0; i < strs.length; i++) {
+                String str = strs[i];
+                int[] alpha = new int[26];
+                for (int j = 0; j < str.length(); j++) {
+                    //str.charAt(j) - 'a' 表示数组的下标
+                    alpha[str.charAt(j) - 'a']++;
+                }
+                String key = buildKey(alpha);
+                if (!ans.containsKey(key)){
+                    List<String> value = new ArrayList();
+                    value.add(str);
+                    ans.put(key,value);
+                }else {
+                    ans.get(key).add(str);
+                }
+            }
+            return new ArrayList(ans.values());
+        }
+
+        private String buildKey(int[] alpha) {
+            StringBuilder sb = new StringBuilder("");
+            for (int i = 0; i < 26; i++) {
+                sb.append('#');
+                sb.append(alpha[i]);
+            }
+            String key = sb.toString();
+            return key;
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
