@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  * @author Lai
  * @version 1.0
- * @date 2020-09-07 21:09
+ * @date 2020-09-03 21:09
  */
 public class BinaryTreePreorderTraversal {
 
@@ -54,6 +55,36 @@ public class BinaryTreePreorderTraversal {
                 }
                 return list;
             }
+
+    }
+
+    class Solution2 {
+
+        /**
+         * 在这个算法中，输出到最终结果的顺序按照 Top->Bottom 和 Left->Right，符合前序遍历的顺序。
+         * @param root
+         * @return
+         */
+        public List<Integer> preorderTraversal(TreeNode root) {
+
+            LinkedList<TreeNode> stack = new LinkedList<>();
+            LinkedList<Integer> output = new LinkedList<>();
+            if (root == null) {
+                return output;
+            }
+            stack.add(root);
+            while (!stack.isEmpty()) {
+                TreeNode node = stack.pollLast();
+                output.add(node.val);
+                if (node.right != null) {
+                    stack.add(node.right);
+                }
+                if (node.left != null) {
+                    stack.add(node.left);
+                }
+            }
+            return output;
+        }
 
     }
 //leetcode submit region end(Prohibit modification and deletion)

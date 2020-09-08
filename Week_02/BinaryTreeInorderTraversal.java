@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * @author Lai
  * @version 1.0
- * @date 2020-09-07 20:08
+ * @date 2020-09-03 20:08
  */
 public class BinaryTreeInorderTraversal {
 
@@ -55,6 +56,26 @@ public class BinaryTreeInorderTraversal {
             return list;
         }
 
+    }
+
+    class Solution2 {
+        public List<Integer> inorderTraversal(TreeNode root) {
+            List < Integer > res = new ArrayList < > ();
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode curr = root;
+            while (curr != null || !stack.isEmpty()) {
+                while (curr != null) {
+                    stack.push(curr);
+                    //向左寻找
+                    curr = curr.left;
+                }
+                //遍历左-根-右
+                curr = stack.pop();
+                res.add(curr.val);
+                curr = curr.right;
+            }
+            return res;
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
