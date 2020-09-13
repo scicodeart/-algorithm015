@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb7ca74-4dde-4c86-95e7-279df566a869" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week_03/BinaryTreeLowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geek-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geek-algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_03/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +34,27 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_02/BinaryTreePreorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_02/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +64,47 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_02/NAryTreePreorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_03/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="525">
+                <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+                <folding>
+                  <element signature="e#0#86#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week_03/BinaryTreeLowestCommonAncestor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_02/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_02/Node.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -60,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_02/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="405">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -104,15 +156,19 @@
         <option value="$PROJECT_DIR$/Week_01/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/Week_01/README.md" />
         <option value="$PROJECT_DIR$/Week_02/ValidAnagram.java" />
-        <option value="$PROJECT_DIR$/Week_02/HeapSort.java" />
         <option value="$PROJECT_DIR$/Week_02/README.md" />
         <option value="$PROJECT_DIR$/Week_02/TwoSum.java" />
         <option value="$PROJECT_DIR$/Week_02/GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/Week_02/TwoSumSecond.java" />
         <option value="$PROJECT_DIR$/Week_02/TreeNode.java" />
-        <option value="$PROJECT_DIR$/Week_02/BinaryTreePreorderTraversal.java" />
-        <option value="$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/Week_02/Node.java" />
+        <option value="$PROJECT_DIR$/Week_02/HeapSort.java" />
+        <option value="$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/Week_02/BinaryTreePreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/Week_02/NAryTreePreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/Week_03/README.md" />
+        <option value="$PROJECT_DIR$/Week_03/BinaryTreeLowestCommonAncestor.java" />
+        <option value="$PROJECT_DIR$/Week_03/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -126,10 +182,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1804" />
-    <option name="y" value="-62" />
-    <option name="width" value="1436" />
-    <option name="height" value="758" />
+    <option name="x" value="1356" />
+    <option name="y" value="-65" />
+    <option name="width" value="1449" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,6 +211,11 @@
             </path>
             <path>
               <item name="geek-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geek-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geek-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -170,7 +231,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week_03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -183,6 +244,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week_03" />
       <recent name="$PROJECT_DIR$/Week_02" />
       <recent name="$PROJECT_DIR$/Week_01" />
     </key>
@@ -218,17 +280,21 @@
       <workItem from="1599392680685" duration="4168000" />
       <workItem from="1599469249402" duration="248000" />
       <workItem from="1599473308816" duration="2176000" />
-      <workItem from="1599551817563" duration="639000" />
+      <workItem from="1599551817563" duration="1379000" />
+      <workItem from="1599646640661" duration="357000" />
+      <workItem from="1599723265579" duration="21000" />
+      <workItem from="1599981554464" duration="2940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17991000" />
+    <option name="totallyTimeSpent" value="22049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1587" y="-23" width="1436" height="758" extended-state="0" />
+    <frame x="1356" y="-65" width="1449" height="836" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18794835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3034826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -243,9 +309,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4159159" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29301074" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,7 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_02/HeapSort.java" />
     <entry file="file://$PROJECT_DIR$/Week_02/ValidAnagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -456,36 +521,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_02/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[145]Binary Tree Postorder Traversal.java" />
     <entry file="file:///var/folders/_m/0g3228kx217ddc7dtz09rz2r0000gn/T/leetcode/editor/en/[144]Binary Tree Preorder Traversal.java" />
     <entry file="file://$PROJECT_DIR$/Week_02/BinaryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_02/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="90">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_02/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_02/NAryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_02/Node.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_02/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_02/NAryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_03/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="525">
+            <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <folding>
+              <element signature="e#0#86#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_03/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
+          <folding>
+            <element signature="e#0#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_02/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_03/BinaryTreeLowestCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
