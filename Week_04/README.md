@@ -101,3 +101,34 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 * 贪心算法与动态规划的不同在于它对每个子问题的解决方案都做出选择，不能回退。动态规划则会保存以前的运算结果，并根据以前的结果对当前进行选择，有回退功能。
 #### 解决问题
 * 最优化问题，如：求图中的最小生成树、求哈夫曼编码等。然而对于工程和生活中的问题，贪心法一般不能得到我们所要求的答案。 
+#### 对比
+* 贪心：当下做局部最优判定
+* 回溯：能够回退
+* 动态规划：最优判断+回退
+
+### 10 二分查找
+#### 二分查找的前提
+1. 目标函数单调性（单调递增或者递减）
+2. 存在上下界（bounded）
+3. 能够通过索引访问（index accessible)
+#### 代码模版
+```java
+// 代码模版
+// Java
+public int binarySearch(int[] array, int target) {
+    int left = 0, right = array.length - 1, mid;
+    while (left <= right) {
+        mid = (right - left) / 2 + left;
+
+        if (array[mid] == target) {
+            return mid;
+        } else if (array[mid] > target) {
+            right = mid - 1;
+        } else {
+            left = mid + 1;
+        }
+    }
+
+    return -1;
+}
+```
